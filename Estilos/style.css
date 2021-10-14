@@ -21,8 +21,9 @@ header#top {
     padding-top: 10px;
 }
 .hrefs {
-    background-color: rgba(#fff, 0);
-    background: transparent;
+    text-decoration: none;
+    color: #fff;
+
 }
 #home {
     right: 400px;
@@ -30,11 +31,13 @@ header#top {
     background-color: #F9A825;
     border-radius: 30px;
     color: #fff;
+    
 }
 .header-itens {
     color: #fff;
     position: absolute;
     padding: 5px 25px 5px 25px;
+
 }
 #contato {
     right: 285px;
@@ -53,33 +56,49 @@ header#top {
     background-size: 10px;
 }
 /* main */
-#main {
+/* #main {
     height: 100px;
     position: absolute;
     width: 99.7%;
     height: 85%;
-}
-#main #lorem {
+} */
+#div1#lorem {
     position: absolute;
     overflow-wrap: break-word;
     width: 400px;
-    top: 45%;
-    left: 20%;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
 }
 article {
     width: 400px;
 }
 
-#main #mail {
+#div2 #mail {
     width: 300px;
     border: 2px solid #212121;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 7px;
+
+
+}
+#div1{
+    border-right: 1px dashed #212121;
+    width: 400px;
+    height: 170px;
+    top: 300px;
+    left: 24%;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+#div2 {
+    width: 400px; 
+    top: 340px;
+    height: 200px;
+    right: 530px;
     position: absolute;
-    border-radius: 6px;
-    right: 20%;
-    top: 50%;
+    padding-top: 115px;
 }
 
 
